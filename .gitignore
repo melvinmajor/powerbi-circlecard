@@ -1,0 +1,10 @@
+# Git ignore for Custom visuals (Power BI)
+# ========================================
+
+node_modules
+.DS_Store
+.tmp
+dist
+typings
+.api
+*.log
