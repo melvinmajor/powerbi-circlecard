@@ -8,3 +8,6 @@ dist
 typings
 .api
 *.log
+
+# devwebpack Graph stats
+webpack.statistics.dev.html
