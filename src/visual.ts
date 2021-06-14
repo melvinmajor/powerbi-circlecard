@@ -66,11 +66,11 @@ export class Visual implements IVisual {
     public update(options: VisualUpdateOptions) {
         let dataView: DataView = options.dataViews[0];
 
-        let width: number = options.viewport.width;
-        let height: number = options.viewport.height;
+        const width: number = options.viewport.width;
+        const height: number = options.viewport.height;
         this.svg.attr("width", width);
         this.svg.attr("height", height);
-        let radius: number = Math.min(width, height) / 2.2;
+        const radius: number = Math.min(width, height) / 2.2;
         this.circle
             .style("fill", "white")
             .style("fill-opacity", 0.5)
@@ -79,7 +79,7 @@ export class Visual implements IVisual {
             .attr("r", radius)
             .attr("cx", width / 2)
             .attr("cy", height / 2);
-        let fontSizeValue: number = Math.min(width, height) / 5;
+        const fontSizeValue: number = Math.min(width, height) / 5;
         this.textValue
             .text(<string>dataView.single.value)
             .attr("x", "50%")
@@ -87,7 +87,7 @@ export class Visual implements IVisual {
             .attr("dy", "0.35em")
             .attr("text-anchor", "middle")
             .style("font-size", fontSizeValue + "px");
-        let fontSizeLabel: number = fontSizeValue / 4;
+        const fontSizeLabel: number = fontSizeValue / 4;
         this.textLabel
             .text(dataView.metadata.columns[0].displayName)
             .attr("x", "50%")
