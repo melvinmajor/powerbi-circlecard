@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Melvin Campos Casares","email":"NA"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/circleCardFB41CCD3AE44493BB4E72637D2A3D71D.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"circleCard","displayName":"CircleCard","guid":"circleCardFB41CCD3AE44493BB4E72637D2A3D71D","visualClassName":"Visual","version":"1.0.0","description":"value showed inside a circle","supportUrl":"https://github.com/melvinmajor/powerbi-circlecard/issues","gitHubUrl":"https://github.com/melvinmajor/powerbi-circlecard"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
