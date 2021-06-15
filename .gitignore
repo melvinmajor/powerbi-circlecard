@@ -11,3 +11,4 @@ typings
 
 # devwebpack Graph stats
 webpack.statistics.dev.html
+webpack.statistics.prod.html
